@@ -23,3 +23,5 @@ React 18.2.0
 `npm start`
 
 5.瀏覽器自動進入到此網址： http://localhost:3000
+
+6.請更改網址至: http://localhost:3000/todo
