@@ -86,6 +86,10 @@ const TodoPage = () => {
     })
   }
 
+  const handleDeleteTodo = (id) => {
+    setTodos(todos.filter(todo => todo.id !== id))
+  }
+
   const handleChangeMode = ({ id, isEdit }) => {
     setTodos((prevTodos) => {
       return prevTodos.map((todo) => {
@@ -129,6 +133,7 @@ const TodoPage = () => {
         onToggleDone={handleToggleDone}
         onChangeMode={handleChangeMode}
         onSave={handleSave}
+        onDelete={handleDeleteTodo}
       />
       <Footer />
     </div>
