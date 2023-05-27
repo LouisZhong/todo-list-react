@@ -1,10 +1,5 @@
 # Todo List X MVC with React
 
-Alpha shop的範例畫面
-
-![cover img](https://github.com/LouisZhong/alpha_shop_iii/blob/main/public/images/cover.PNG)
-
-
 ### 環境要求
 
 Node.js 14.18.1
